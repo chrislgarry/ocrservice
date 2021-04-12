@@ -16,4 +16,4 @@ ADD . $GOPATH/src/ocrservice
 WORKDIR $GOPATH/src/ocrservice
 RUN go get -v ./... && go install .
 
-CMD ["mercariocrservice"]
+CMD ["ocrservice"]
